@@ -9,7 +9,7 @@ const userAnswer = document.querySelector('input[name="quiz"]:checked');
         // Step 3: Compare answers and give feedback
         const feedback = document.getElementById('feedback');
         if (userAnswer === correctAnswer) {
-            feedback.textContent = "Correct! Well done";
+            feedback.textContent = "Correct! Well done.";
         }else {
             feedback.textContent = "That's incorrect. Try again!"
         }
